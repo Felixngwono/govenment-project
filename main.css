@@ -1,0 +1,27 @@
+img{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 10%;
+    background-image: url(dala.jpg);
+}
+
+.profile{
+    display: inline-block;
+}   
+.sidebar-sticky {
+    height: 100vh;
+    overflow-y: auto;
+}
+/* Adjust the iframe size */
+iframe {
+    width: 100%;
+    height: 100%; /* Cover the rest of the page */
+    border: none; /* Remove iframe border */
+}
+/* Ensure HTML and body have 100% height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

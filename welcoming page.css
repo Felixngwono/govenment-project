@@ -1,0 +1,108 @@
+/* Apply styles to the body element */
+
+/* Apply styles to the body element */
+
+
+/* Style the navigation bar */
+/* Style for the Hero Section */
+.jumbotron {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 0;
+}
+
+/* Style for the "Track Government Development Projects" text in the Hero Section */
+.jumbotron h1 {
+    font-size: 2.5rem;
+}
+
+/* Style for the "Stay informed about ongoing..." text in the Hero Section */
+.jumbotron .lead {
+    font-size: 1.25rem;
+}
+
+/* Style for the "Explore Projects" button in the Hero Section */
+.jumbotron .btn-primary {
+    background-color: #FFC107;
+    border-color: #FFC107;
+    font-weight: bold;
+}
+
+/* Style for the About Us Section */
+#about {
+    padding: 4rem 0;
+}
+
+/* Style for the "About Us" heading in the About Us Section */
+#about h2 {
+    font-size: 2.5rem;
+}
+
+/* Style for the About Us text in the About Us Section */
+#about p {
+    font-size: 1.125rem;
+}
+
+/* Style for the image in the About Us Section */
+#about img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the Featured Projects Section */
+#projects {
+    padding: 4rem 0;
+}
+
+/* Style for the "Featured Projects" heading in the Featured Projects Section */
+#projects h2 {
+    font-size: 2.5rem;
+}
+
+/* Style for the "Explore some of the impactful..." text in the Featured Projects Section */
+#projects p {
+    font-size: 1.125rem;
+}
+
+/* Style for the Footer Section */
+footer {
+    background-color: #343A40;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* Style for the footer text */
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Style for the navbar-brand (logo and text) */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style for the logo image in the navbar */
+.navbar-brand img {
+    margin-right: 1rem;
+}
+
+/* Style for the active navigation link */
+.navbar-nav .nav-item.active .nav-link {
+    color: #FFC107;
+}
+
+/* Style for the navigation links */
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style for the navigation links on hover */
+.navbar-nav .nav-link:hover {
+    color: #FFC107;
+}

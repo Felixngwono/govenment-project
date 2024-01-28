@@ -1,0 +1,50 @@
+body{
+    background-image: url(singaporee.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 0;
+}
+
+/* Navigation bar link styles */
+.navbar .nav-link {
+    color: #333;
+}
+
+/* Budget section styles */
+.budget-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.budget-section h2 {
+    color: #333;
+}
+
+/* Funding section styles */
+.funding-section {
+    background-color: #e9ecef;
+    padding: 50px 0;
+}
+
+.funding-section h2 {
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+/* Change the list styles to circles */
+ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}

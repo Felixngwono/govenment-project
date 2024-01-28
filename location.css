@@ -1,0 +1,24 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Full-height header with background color */
+.header {
+    background-color: #007bff; /* You can change this to your desired header color */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px; /* Add space between header and map */
+}
+
+/* Center map container and make it occupy the rest of the page */
+.map-container {
+    width: 100%;
+    height: calc(100vh - 60px); /* Subtract header height to occupy remaining height */
+}
+#map {
+    width: 100%;
+    height: 100%;
+}

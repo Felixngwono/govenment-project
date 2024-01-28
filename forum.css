@@ -1,0 +1,60 @@
+/* forum.css */
+
+/* Style the heading */
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the categories list */
+.forum-categories {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+
+.forum-categories h2 {
+    font-size: 20px;
+}
+
+.forum-categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.forum-categories ul li {
+    margin-bottom: 10px;
+}
+
+.forum-categories ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.forum-categories ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style the discussion threads */
+.discussion-threads {
+    width: 65%;
+    float: left;
+}
+
+.discussion-thread {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.discussion-thread h3 {
+    font-size: 18px;
+}
+
+/* Center the footer text */
+footer {
+    
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
