@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-image: url(house.jpg);
+            background-image: url(ad.avif);
             background-attachment: fixed;
-           
+        
+        font-size: 14px;
+    
             background-size: cover;
             background-repeat: no-repeat;
             background-color: #f8f9fa; /* Light gray background */
@@ -64,12 +66,11 @@
             </div>
         
     </div>
-    <?php
-    include "footer.php"
-    ?>
+  
     <!-- Include Bootstrap JS and Popper.js -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>

@@ -1,7 +1,7 @@
 <?php
 // Database configuration
 $host = 'localhost';  
-$dbname = 'Government  Records';  
+$dbname = 'government records';  
 $username = 'root';  
 $password = '';  
 

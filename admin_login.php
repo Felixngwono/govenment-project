@@ -2,8 +2,8 @@
 session_start();
 
 if (isset($_POST['login'])) {
-    $username = 'StoryTeller'; // Replace with your actual admin username
-    $password = 'Ngwono123'; // Replace with your hashed and salted password
+    $username = 'StoryTeller';
+    $password = 'Ngwono123'; 
 
     $entered_username = $_POST['username'];
     $entered_password = $_POST['password'];
@@ -44,7 +44,7 @@ if (isset($_POST['login'])) {
 
         .footer {
             background-color: #f8f9fa; /* Set your desired background color */
-            padding: 5px;
+            padding: 2px;
             text-align: center;
             margin-top: auto;
         }

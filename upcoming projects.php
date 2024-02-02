@@ -35,12 +35,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Custom CSS -->
     <style>
-        /* Add your custom CSS styles here */
+        body {
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
 <div class="container mt-5">
-        <h2>Ongoing Government Projects</h2>
+        <h2><span style=(>Upcoming Government Projects</span></h2>
        <!-- Sample government jobs table (customize as needed) -->
 <table class="table table-bordered" id="projectTable">
     <thead>
@@ -80,7 +82,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </tbody>
 </table>
 <br>
-<?php
+
+<?php 
     include ("footer.php");
     ?>
     <!-- Bootstrap and JavaScript Scripts -->

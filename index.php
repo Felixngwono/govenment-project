@@ -11,6 +11,11 @@
 
 
     <style>
+        body{
+   
+        font-size: 14px;
+
+        }
     /* Make the carousel images occupy full width */
     .carousel-inner img {
         width: 100%;
@@ -31,6 +36,7 @@
 
     .navbar-nav .nav-link::after {
         content: '';
+        color:green;
         display: block;
         width: 0;
         height: 2px;

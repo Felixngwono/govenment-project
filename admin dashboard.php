@@ -90,6 +90,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Admin Dashboard - Government Development Projects Tracker</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
    <style>
+    body{
+        font-size: 14px;
+    }
         /* Add your custom CSS styles here */
         .add-project-button {
             display: flex;
@@ -221,7 +224,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           
         </div>
   <div class="container mt-5">
-        <h2>Completed Government Projects</h2>
+        <h2><span</span>Completed Government Projects</h2>
        <!-- Sample government jobs table (customize as needed) -->
 <table class="table table-bordered" id="projectTable">
     <thead>
